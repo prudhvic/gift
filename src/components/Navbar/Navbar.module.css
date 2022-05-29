@@ -169,7 +169,7 @@
     margin-right: 2em;
   }
   .searchInput input::placeholder {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
   .location {
     /* display: none; */
@@ -178,7 +178,7 @@
   }
 
   .location p {
-    font-size: 1rem;
+    font-size: 0.8rem;
     position: absolute;
     bottom: -30px;
     left: -3rem;

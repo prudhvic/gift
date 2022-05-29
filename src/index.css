@@ -7,8 +7,6 @@
   font-family: "Poppins", sans-serif;
   text-transform: capitalize;
   letter-spacing: 1.4px;
-  overflow-x: hidden;
-  overflow-y: visible;
 }
 ::-webkit-scrollbar {
   display: none;

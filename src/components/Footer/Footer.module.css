@@ -6,7 +6,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 1em;
   position: relative;
-  min-height: 100vh;
+  min-height: 80vh;
   text-align: center;
   padding: 10px;
 }
@@ -84,5 +84,8 @@
     position: static;
     width: 300px;
     margin-top: 10em;
+  }
+  .footer a {
+    font-size: 1.1rem;
   }
 }

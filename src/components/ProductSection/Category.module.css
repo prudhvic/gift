@@ -30,12 +30,7 @@
   color: white;
 }
 @media (max-width: 600px) {
-  .cardContainer .panel:last-child {
-    justify-self: center;
-    grid-column: 2/3;
-    grid-row: 1;
-  }
-  .panel{
-      grid-row: 2;
+  .cardContainer {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
