@@ -1,0 +1,74 @@
+.main {
+  background-color: rgb(66, 66, 66);
+  padding: 1em;
+}
+
+.title {
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+}
+.productContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 1em;
+  justify-content: center;
+  gap: 1em;
+}
+.product {
+  background-color: white;
+  display: grid;
+  padding: 1rem;
+  border-radius: 6px;
+  position: relative;
+}
+.productDetails {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+}
+
+.productContainer h2 {
+  font-size: 1.1rem;
+}
+.optionIcon {
+  position: absolute;
+  right: 0;
+  border: none;
+  background-color: transparent;
+  padding: 6px;
+  top: 0;
+}
+.product img {
+  grid-column: 1/-1;
+  justify-self: center;
+  max-width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+.price h3 {
+  font-size: 1rem;
+  width: fit-content;
+  color: rgba(188, 36, 6, 1);
+}
+.oldPrice {
+  text-decoration: line-through;
+  margin-right: 5px;
+}
+.saleBtn {
+  background-color: rgba(147, 0, 0, 1);
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 0.2em 0.4em;
+  font-size: 0.9rem;
+  border-radius: 6px;
+}
+.location {
+  justify-self: end;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: right;
+}

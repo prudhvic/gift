@@ -1,0 +1,36 @@
+.mapContainer {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: grid;
+  justify-items: center;
+  gap: 0.5em;
+  margin-top: 1em;
+}
+.mapContainer img {
+  max-width: 100%;
+  aspect-ratio: 16/7;
+  object-fit: cover;
+  margin-top: 1em;
+}
+.map {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  padding: 0.3em 0.6em;
+  border-radius: 6px;
+  box-shadow: 2px 2px 2px black;
+}
+.map button:hover,
+.map button:focus {
+  border: none;
+  outline: none;
+}
+.content h2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+.content p {
+  font-size: 0.9rem;
+  margin-left: 10px;
+}

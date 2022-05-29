@@ -1,0 +1,74 @@
+.heroContainer {
+  display: grid;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 1);
+  justify-items: center;
+  gap: 1em;
+  color: #fcd036;
+  overflow-y: hidden;
+}
+.headers {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  padding: 10px;
+}
+.headers h2 {
+  font-size: 3rem;
+}
+.headers h3 {
+  font-size: 2rem;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+.btnAction {
+  white-space: nowrap;
+  display: flex;
+  padding: 0.3em 0.6em;
+  font-size: 1.6rem;
+  align-items: center;
+  color: inherit;
+  border: 2px solid #fcd036;
+  font-weight: bold;
+  gap: 1em;
+  background-color: black;
+}
+.btnAction img {
+  transform: scale(1.2);
+}
+.heroContainer img {
+  max-width: 100%;
+
+  object-fit: cover;
+}
+.light {
+  color: white;
+}
+
+@media (min-width: 960px) {
+  .heroContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .content {
+    align-self: center;
+  }
+  .headers h2 {
+    font-size: 128px;
+  }
+  .img {
+    align-self: end;
+    justify-self: end;
+  }
+  .flex {
+    margin-top: 10px;
+  }
+  .flex h3 {
+    font-size: 48px;
+  }
+  .heroContainer p {
+    font-size: 20px;
+  }
+}

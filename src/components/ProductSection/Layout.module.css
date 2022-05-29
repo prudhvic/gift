@@ -1,0 +1,66 @@
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 1em;
+}
+.overlay {
+  background-image: url("/public/images/explore.jpg");
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+}
+.content {
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  padding: 0.5em;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.content h2 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.content p {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.content button {
+  color: rgba(226, 182, 182, 1);
+  background-color: #000;
+  padding: 0.3em 0.6em;
+  margin: 0 auto;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  font-weight: bold;
+  border: 1px solid rgba(226, 182, 182, 1);
+}
+.cardContainer img {
+  width: 100%;
+  aspect-ratio: 16/7;
+  object-fit: cover;
+}
+.exploreIcon {
+  margin-left: 10px;
+}
+@media (max-width: 960px) {
+  .cardContainer img {
+    aspect-ratio: 1/1;
+    width: 100%;
+  }
+  .content h2 {
+    font-size: 1.1rem;
+  }
+  .content button {
+    font-size: 1rem;
+  }
+  .content p {
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-top: 0;
+  }
+}
