@@ -9,11 +9,11 @@ const PersonalService = () => {
           <h3>Contact our Special customer service</h3>
         </div>
         <div className={styles.contact}>
-          <input type="number" placeholder="+911234567890"/>
+          <input type="number" placeholder="+911234567890" />
           <img src="/images/phone.svg" />
         </div>
         <div className={styles.email}>
-          <input type="email" placeholder="user@example.com"/>
+          <input type="email" placeholder="user@ex.com" />
           <img src="/images/email.svg" />
         </div>
       </div>
